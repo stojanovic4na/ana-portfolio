@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ana Stojanović, a web designer and developer creating thoughtful digital experiences.">
+  <meta name="theme-color" content="#f3f0e9">
+  <title>Ana Stojanović — Web Designer &amp; Developer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23151515'/%3E%3Cpath d='M18 45 30 17h4l12 28h-6l-2.7-6.7H26.5L24 45h-6Zm10.5-12h6.7L32 24.5 28.5 33Z' fill='%23f3f0e9'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Sticky site navigation -->
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Ana Stojanović — Home">AS<span>®</span></a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-label">Menu</span>
+      <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-layout">
+        <div class="hero-copy reveal">
+          <p class="hero-label">Web Designer &amp; Developer</p>
+          <h1 id="hero-title">Ana <em>Stojanović</em></h1>
+          <p class="hero-intro">I design and build thoughtful digital experiences with a focus on expressive interfaces, clear interaction and the details that make a product feel distinct.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">View My Work</a>
+            <a class="button button-line" href="assets/CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero-note"><span aria-hidden="true"></span> Available for selected collaborations</p>
+        </div>
+
+        <!-- Layered project previews; replace only the image files in assets/. -->
+        <div class="hero-visual reveal" data-hero-visual aria-label="Selected project previews">
+          <article class="preview-card preview-card-back" data-depth="0.35">
+            <div class="preview-window">
+              <div class="preview-toolbar">
+                <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span>donum.studio</span>
+                <span>01</span>
+              </div>
+              <div class="preview-media">
+                <img class="hero-preview-image hero-preview-donum" src="assets/donum/preview.png" alt="DONUM personalized jewelry website shown on desktop and mobile devices" loading="eager">
+              </div>
+              <div class="preview-caption"><span>DONUM</span><span>Brand / Digital</span></div>
+            </div>
+          </article>
+
+          <article class="preview-card preview-card-middle" data-depth="0.65">
+            <div class="preview-window">
+              <div class="preview-toolbar">
+                <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span>noctux.archive</span>
+                <span>02</span>
+              </div>
+              <div class="preview-media">
+                <img class="hero-preview-image hero-preview-noctux" src="assets/donum/NoctUX Digital Studio Workspace.png" alt="Noctux digital studio website shown on desktop and mobile devices" loading="eager">
+              </div>
+              <div class="preview-caption"><span>NOCTUX</span><span>Web / Creative Dev</span></div>
+            </div>
+          </article>
+
+          <article class="preview-card preview-card-front" data-depth="1">
+            <div class="preview-window">
+              <div class="preview-toolbar">
+                <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span>interface.fig</span>
+                <span>03</span>
+              </div>
+              <div class="preview-media">
+                <img class="hero-preview-image hero-preview-interface" src="assets/donum/Warm Minimalist UI Design Workspace.png" alt="UI and UX design system shown across desktop and mobile screens" loading="eager">
+              </div>
+              <div class="preview-caption"><span>UI STUDY</span><span>Interface / System</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected portfolio work -->
+    <section class="work section section-dark" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <p class="section-number">01</p>
+        <h2 id="work-title">Selected Work</h2>
+        <p>A collection of digital experiences, identities and visual explorations.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-row reveal">
+          <div class="project-info">
+            <p class="project-number" aria-label="Project 01">01</p>
+            <div class="project-copy">
+              <h3>DONUM</h3>
+              <ul class="project-tags" aria-label="Project categories"><li>Brand identity</li><li>UI/UX</li><li>Development</li></ul>
+              <p class="project-description">A refined digital home for meaningful gifting, shaped by a quietly luxurious visual system.</p>
+            </div>
+          </div>
+          <!-- DONUM case study -->
+          <a class="project-visual" href="case-studies/donum.html" aria-label="View the DONUM case study">
+            <img src="assets/donum/preview.png" alt="DONUM personalized jewelry website shown on desktop and mobile devices" loading="lazy">
+            <span class="project-link">View Project <b aria-hidden="true">↗</b></span>
+          </a>
+        </article>
+
+        <article class="project-row reveal">
+          <div class="project-info">
+            <p class="project-number" aria-label="Project 02">02</p>
+            <div class="project-copy">
+              <h3>Noctux</h3>
+              <ul class="project-tags" aria-label="Project categories"><li>Web design</li><li>Creative development</li></ul>
+              <p class="project-description">An atmospheric web experience balancing experimental visuals with an effortless user journey.</p>
+            </div>
+          </div>
+          <a class="project-visual" href="https://www.noctux.dev/" target="_blank" rel="noopener noreferrer" aria-label="View the live Noctux website in a new tab">
+            <img src="assets/donum/NoctUX Digital Studio Workspace.png" alt="Noctux digital studio website shown on desktop and mobile devices" loading="lazy">
+            <span class="project-link">View Live Site <b aria-hidden="true">↗</b></span>
+          </a>
+        </article>
+
+        <article class="project-row reveal">
+          <div class="project-info">
+            <p class="project-number" aria-label="Project 03">03</p>
+            <div class="project-copy">
+              <h3>New Zealand<br>Website Redesign</h3>
+              <ul class="project-tags" aria-label="Project categories"><li>Research</li><li>UI/UX</li><li>Prototyping</li></ul>
+              <p class="project-description">A destination-first redesign that turns discovery into an immersive, useful planning experience.</p>
+            </div>
+          </div>
+          <!-- Replace this href with the final New Zealand case-study URL. -->
+          <a class="project-visual" href="case-studies/new-zealand.html" aria-label="View the New Zealand website redesign case study">
+            <img class="placeholder-image" src="assets/nz-preview.jpg" alt="New Zealand website redesign preview" loading="lazy">
+            <span class="project-link">View Project <b aria-hidden="true">↗</b></span>
+          </a>
+        </article>
+
+        <article class="project-row reveal">
+          <div class="project-info">
+            <p class="project-number" aria-label="Project 04">04</p>
+            <div class="project-copy">
+              <h3>Academy<br>Website</h3>
+              <ul class="project-tags" aria-label="Project categories"><li>Strategy</li><li>Interface design</li><li>Development</li></ul>
+              <p class="project-description">A flexible learning platform designed to make complex educational content feel approachable.</p>
+            </div>
+          </div>
+          <a class="project-visual" href="https://akademijanis.edu.rs/" target="_blank" rel="noopener noreferrer" aria-label="View the live Academy website in a new tab">
+            <img src="assets/donum/Modern Serbian Academy Workspace.png" alt="Academy website shown on a laptop in a study workspace" loading="lazy">
+            <span class="project-link">View Live Site <b aria-hidden="true">↗</b></span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="section-number">02</p>
+        <h2 id="about-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <p class="about-statement reveal">I turn ideas into visual systems and digital products that feel <em>intentional, human</em> and memorable.</p>
+        <div class="about-copy reveal">
+          <p>I’m a web designer and developer with a strong focus on frontend, UI/UX and visual design. I enjoy moving between concept, interface and code—giving every part of a project the same level of care.</p>
+          <p>My technical foundation also extends to backend development and databases, helping me design with the full product in mind and collaborate naturally across disciplines.</p>
+          <a class="text-link" href="#contact">Let’s work together <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="section-number">03</p>
+        <h2 id="skills-title">Capabilities</h2>
+        <p>From first sketch to final release.</p>
+      </div>
+
+      <div class="skills-list">
+        <article class="skill-group reveal">
+          <p class="skill-number">01</p>
+          <h3>Design &amp; UI/UX</h3>
+          <ul>
+            <li>Visual identity</li><li>Art direction</li><li>Wireframing</li><li>Prototyping</li><li>Design systems</li><li>Responsive design</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-number">02</p>
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive development</li><li>Accessibility</li><li>API integration</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-number">03</p>
+          <h3>Programming &amp; Data</h3>
+          <ul>
+            <li>Python</li><li>PHP</li><li>SQL</li><li>Relational databases</li><li>Data modelling</li><li>Backend fundamentals</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-number">04</p>
+          <h3>Tools</h3>
+          <ul>
+            <li>Figma</li><li>Adobe Creative Suite</li><li>VS Code</li><li>Git &amp; GitHub</li><li>WordPress</li><li>Notion</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Photography and visual design -->
+    <section class="visual-work section" id="visual-work" aria-labelledby="visual-work-title">
+      <div class="section-heading reveal">
+        <p class="section-number">04</p>
+        <h2 id="visual-work-title">Photography &amp;<br>Visual Design</h2>
+        <p>A curated selection of image-making, print, identity and campaign work.</p>
+      </div>
+
+      <!-- 01: Photo retouching -->
+      <section class="creative-chapter retouching-showcase" aria-labelledby="retouch-title">
+        <div class="chapter-heading reveal">
+          <p class="chapter-number">01</p>
+          <h3 id="retouch-title">Photo Retouching</h3>
+          <p>Selected edits showing colour, light and detail refinement.</p>
+        </div>
+
+        <div class="retouch-grid">
+          <article class="retouch-card reveal" data-retouch-card>
+            <div class="retouch-image">
+              <img src="assets/donum/after_aquarium.jpg" data-after="assets/donum/after_aquarium.jpg" data-before="assets/donum/before_aquarium.jpg" data-after-alt="Edited aquarium photograph with refined colour and light" data-before-alt="Original aquarium photograph before retouching" alt="Edited aquarium photograph with refined colour and light" loading="lazy">
+              <button class="retouch-toggle" type="button" aria-pressed="false">View Before</button>
+            </div>
+            <div class="retouch-caption"><p>01 / Aquarium</p><p>Color &amp; Light</p></div>
+          </article>
+
+          <article class="retouch-card reveal" data-retouch-card>
+            <div class="retouch-image">
+              <img src="assets/donum/after_martin.jpg" data-after="assets/donum/after_martin.jpg" data-before="assets/donum/before_martin.jpg" data-after-alt="Edited portrait of Martin with refined colour grading" data-before-alt="Original portrait of Martin before colour grading" alt="Edited portrait of Martin with refined colour grading" loading="lazy">
+              <button class="retouch-toggle" type="button" aria-pressed="false">View Before</button>
+            </div>
+            <div class="retouch-caption"><p>02 / Portrait</p><p>Color Grading</p></div>
+          </article>
+
+          <article class="retouch-card reveal" data-retouch-card>
+            <div class="retouch-image">
+              <img src="assets/donum/after_pavle.jpg" data-after="assets/donum/after_pavle.jpg" data-before="assets/donum/before_pavle.jpg" data-after-alt="Edited portrait of Pavle with refined light and detail" data-before-alt="Original portrait of Pavle before light and detail retouching" alt="Edited portrait of Pavle with refined light and detail" loading="lazy">
+              <button class="retouch-toggle" type="button" aria-pressed="false">View Before</button>
+            </div>
+            <div class="retouch-caption"><p>03 / Portrait</p><p>Light &amp; Detail</p></div>
+          </article>
+        </div>
+
+        <p class="retouch-tools reveal">Photoshop <span>·</span> Lightroom <span>·</span> Color grading <span>·</span> Retouching</p>
+      </section>
+
+      <!-- 02: Photography -->
+      <section class="creative-chapter" aria-labelledby="photography-title">
+        <div class="chapter-heading reveal">
+          <p class="chapter-number">02</p>
+          <h3 id="photography-title">Photography</h3>
+          <p>Selected commissions and personal studies across people, spaces and promotional storytelling.</p>
+        </div>
+        <div class="photo-editorial">
+          <figure class="showcase-item photo-main reveal">
+            <div class="showcase-image"><img src="assets/donum/interior.jpg" alt="Symmetrical auditorium interior with red seating" loading="lazy"></div>
+            <figcaption><span>Interiors &amp; Properties</span><span>Space / Detail</span></figcaption>
+          </figure>
+
+          <div class="photo-secondary-row">
+            <figure class="showcase-item photo-campaign reveal">
+              <div class="showcase-image"><img src="assets/donum/campaign.jpeg" alt="Promotional photograph featuring a Red Bull can" loading="lazy"></div>
+              <figcaption><span>Promotional</span><span>Product / Campaign</span></figcaption>
+            </figure>
+            <figure class="showcase-item photo-event reveal">
+              <div class="showcase-image"><img src="assets/donum/event.jpeg" alt="Students receiving certificates at an event" loading="lazy"></div>
+              <figcaption><span>Events</span><span>People / Atmosphere</span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03: Print design -->
+      <section class="creative-chapter" aria-labelledby="print-title">
+        <div class="chapter-heading reveal">
+          <p class="chapter-number">03</p>
+          <h3 id="print-title">Print &amp; Editorial Design</h3>
+          <p>Layout, typography and visual systems designed to translate confidently from screen to print.</p>
+        </div>
+        <div class="print-grid">
+          <figure class="showcase-item reveal">
+            <div class="showcase-image"><img src="assets/donum/poster.png" alt="Raw property photograph transformed into a final brochure cover design" loading="lazy"></div>
+            <figcaption><span>Process / Cover Design</span><span>Photo → Art Direction</span></figcaption>
+          </figure>
+          <figure class="showcase-item reveal">
+            <div class="showcase-image"><img src="assets/donum/brochure.jpg" alt="Editorial property brochure mockup" loading="lazy"></div>
+            <figcaption><span>Editorial Brochure</span><span>Layout / Print</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- 04: Identity design -->
+      <section class="creative-chapter identity-chapter" aria-labelledby="identity-title">
+        <div class="chapter-heading reveal">
+          <p class="chapter-number">04</p>
+          <h3 id="identity-title">Logo Redesign</h3>
+          <p>A brand identity redesign for a New Zealand safety company, translating protection, structure and local identity into a stronger and more distinctive mark.</p>
+        </div>
+        <div class="identity-case">
+          <figure class="showcase-item identity-process-board reveal">
+            <div class="showcase-image identity-process"><img src="assets/donum/proces.png" alt="Logo concept development showing shield, monogram, roof, letterform and colour studies" loading="lazy"></div>
+            <figcaption><span>Concept Development</span><span>Symbol / Form / Colour</span></figcaption>
+          </figure>
+
+          <div class="logo-comparison reveal">
+              <figure class="logo-panel">
+                <p class="logo-state">Before</p>
+                <div class="logo-frame logo-before">
+                  <img src="assets/donum/old_logo.png" alt="Original Asbestos Management New Zealand logo before redesign" loading="lazy">
+                </div>
+                <figcaption class="logo-caption"><p>Original Logo</p><p>Previous Brand Mark</p></figcaption>
+              </figure>
+              <figure class="logo-panel">
+                <p class="logo-state">After</p>
+                <div class="logo-frame logo-after">
+                  <img src="assets/donum/new_logo.png" alt="New Asbestos Management monogram and shield logo after redesign" loading="lazy">
+                </div>
+                <figcaption class="logo-caption"><p>Redesigned Logo</p><p>New Visual Direction</p></figcaption>
+              </figure>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section section-dark" id="contact" aria-labelledby="contact-title">
+      <div class="contact-top reveal">
+        <p class="section-number">05</p>
+        <p>Have a project in mind?</p>
+      </div>
+      <div class="contact-main reveal">
+        <h2 id="contact-title">Let’s make<br>something <em>great.</em></h2>
+        <a class="contact-email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ana16stojanovic@gmail.com" target="_blank" rel="noopener noreferrer">ana16stojanovic@gmail.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-year></span> Ana Stojanović</p>
+    <p>Designed &amp; developed with care</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
